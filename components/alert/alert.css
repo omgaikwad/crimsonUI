@@ -1,0 +1,45 @@
+/* Alert */
+
+.alert {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  margin: 1rem 0.4rem;
+  padding: 1rem 1.6rem;
+  border-radius: 0.6rem;
+}
+
+.alert-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.alert-secondary {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.alert-success {
+  background-color: var(--success-color);
+  color: white;
+}
+
+.alert-warning {
+  background-color: var(--warning-color);
+  color: white;
+}
+
+.alert-danger {
+  background-color: var(--danger-color);
+  color: white;
+}
+
+.alert-display-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
