@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/13c2d874aa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="../../assets/favicon/favicon-red-black.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../../css/main.css" />
+    <link rel="stylesheet" href="../../css/utilities.css" />
+    <link rel="stylesheet" href="../../css/introduction.css" />
+    <link rel="stylesheet" href="./avatar.css" />
+    <title>Introduction</title>
+  </head>
+  <body>
+    <div class="grid-page-container">
+      <!-- NAVBAR SECTION -->
+      <nav class="navbar" id="main-navbar">
+        <div class="left-navbar">
+          <img
+            src="../../assets/logo/crimsonUI-logo.png"
+            alt=""
+            class="logo-img"
+          />
+          <div class="logo-title">
+            <a href="../../index.html" id="logo-title-link">crimsonUI</a>
+          </div>
+        </div>
+        <div class="right-navbar">
+          <a href="https://github.com/omgaikwad/crimsonUI" target="_blank">
+            <i class="fab fa-github fa-2x navbar-icons"></i
+          ></a>
+
+          <a href="https://twitter.com/OmGaikwad_" target="_blank">
+            <i class="fab fa-twitter fa-2x navbar-icons"></i
+          ></a>
+
+          <a href="https://www.linkedin.com/in/omgaikwad1/" target="_blank">
+            <i class="fab fa-linkedin-in fa-2x navbar-icons"></i
+          ></a>
+        </div>
+      </nav>
+
+      <!-- SIDEBAR SECTION -->
+      <div class="sidebar" id="main-sidebar">
+        <div class="components">
+          <h3 class="components-heading">Get Started</h3>
+
+          <ul class="components-list">
+            <li class="components-list-item">
+              <a href="../../pages/introduction.html">Introduction</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="components">
+          <h3 class="components-heading">Components</h3>
+
+          <ul class="components-list">
+            <li class="components-list-item">
+              <a href="#" id="active-page">Avatar</a>
+            </li>
+            <li class="components-list-item"><a href="#">Alert</a></li>
+            <li class="components-list-item"><a href="#">Badge</a></li>
+            <li class="components-list-item"><a href="#">Button</a></li>
+            <li class="components-list-item"><a href="#">Cards</a></li>
+            <li class="components-list-item"><a href="#">Image</a></li>
+            <li class="components-list-item"><a href="#">Input</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- MAIN SECTION -->
+
+      <section class="main" id="main-section">
+        <h1 class="main-heading">AVATAR</h1>
+        <p>
+          Avatars are user profile pictures. Avatars can be used as an online
+          identity in different places like projects, repositories, etc.
+        </p>
+
+        <h2>Profile Avatar</h2>
+        <p>
+          Profile avatars can be created using `avatar` class name inside `img`
+          tag.
+        </p>
+        <div class="code-output-container">
+          <div class="standard-avatar">
+            <img
+              class="avatar"
+              src="../../assets/profilePics/profile1.jpg"
+              alt="avatar"
+            />
+            <img
+              class="avatar"
+              src="../../assets/profilePics/profile2.png"
+              alt="avatar"
+            />
+            <img
+              class="avatar"
+              src="../../assets/profilePics/profile3.jpg"
+              alt="avatar"
+            />
+
+            <img
+              class="avatar"
+              src="../../assets/profilePics/profile4.jpg"
+              alt="avatar"
+            />
+          </div>
+        </div>
+
+        <!-- Code Example -->
+        <div class="code-example-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28211%2C211%2C211%2C1%29&t=vscode&wt=none&l=auto&width=872&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=15px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252F%2520Using%2520the%2520%2522avatar%2522%2520class%2520name%2520%252F%252F%250A%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522.%252Favatar-assets%252Fprofile1.jpg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%250A%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522.%252Favatar-assets%252Fprofile2.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%250A%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522.%252Favatar-assets%252Fprofile3.jpg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%250A%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522.%252Favatar-assets%252Fprofile4.jpg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E"
+            style="
+              width: 872px;
+              height: 211px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+
+        <h2>Avatar Sizes</h2>
+        <p>
+          Sizes of the avatars can be changed by adding
+          <strong> avatar-sm , avatar-md , avatar-lg , avatar-xl </strong> class
+          to the existing avatar class.
+        </p>
+        <div class="code-output-container">
+          <div class="avatar-sizes">
+            <img
+              class="avatar avatar-sm"
+              src="../../assets/profilePics/profile1.jpg"
+              alt="avatar"
+            />
+
+            <img
+              class="avatar avatar-md"
+              src="../../assets/profilePics/profile2.png"
+              alt="avatar"
+            />
+
+            <img
+              class="avatar avatar-lg"
+              src="../../assets/profilePics/profile3.jpg"
+              alt="avatar"
+            />
+
+            <img
+              class="avatar avatar-xl"
+              src="../../assets/profilePics/profile4.jpg"
+              alt="avatar"
+            />
+          </div>
+        </div>
+
+        <div class="code-example-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28211%2C211%2C211%2C1%29&t=vscode&wt=none&l=auto&width=872&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=15px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252F%2520Using%2520the%2520%2522avatar-sm%2522%2520%257C%2520%2522avatar-md%2522%2520%257C%2520%2522avatar-lg%2522%2520%257C%2520%2522avatar-xl%2522%2520class%2520to%2520change%2520sizes%2520%252F%252F%250A%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2522%2520src%253D%2522..%252F..%252Fassets%252FprofilePics%252Fprofile1.jpg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%250A%253Cimg%2520class%253D%2522avatar%2520avatar-md%2522%2520src%253D%2522..%252F..%252Fassets%252FprofilePics%252Fprofile2.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%250A%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522..%252F..%252Fassets%252FprofilePics%252Fprofile3.jpg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%250A%253Cimg%2520class%253D%2522avatar%2520avatar-xl%2522%2520src%253D%2522..%252F..%252Fassets%252FprofilePics%252Fprofile4.jpg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E"
+            style="
+              width: 872px;
+              height: 211px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
