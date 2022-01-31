@@ -1,0 +1,32 @@
+/* Avatar */
+.avatar {
+  height: 3.125rem;
+  width: 3.125rem;
+  border-radius: 50%;
+  margin: 0 12px;
+}
+
+/* Avatar Sizes */
+.avatar-sm {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.avatar-md {
+  height: 3.125rem;
+  width: 3.125rem;
+}
+
+.avatar-lg {
+  height: 4.0625rem;
+  width: 4.0625rem;
+}
+
+.avatar-xl {
+  height: 5rem;
+  width: 5rem;
+}
+.avatar-sizes {
+  display: flex;
+  align-items: center;
+}

@@ -71,6 +71,15 @@ hr {
   color: var(--primary-color);
 }
 
+.code-output-container {
+  box-sizing: border-box;
+  border: 3px solid lightgray;
+  padding: 1rem;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
 .main h2 {
   font-weight: 600;
   color: var(--secondary-color);
