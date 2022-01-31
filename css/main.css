@@ -14,6 +14,11 @@
   box-sizing: border-box;
 }
 
+#active-page {
+  color: red;
+  font-weight: 500;
+}
+
 body {
   font-family: "Playfair Display", serif;
   background-color: var(--background-color);
@@ -68,9 +73,12 @@ main {
 .logo-title {
   font-weight: 600;
   font-size: 2rem;
-  color: var(--primary-color);
 }
 
+.logo-title a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
 .left-navbar {
   display: flex;
   align-items: center;
