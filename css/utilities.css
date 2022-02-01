@@ -16,3 +16,11 @@
 .warning-bg-color {
   background-color: var(--warning-color);
 }
+
+iframe {
+  width: 54.5rem;
+  height: 14rem;
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+}
