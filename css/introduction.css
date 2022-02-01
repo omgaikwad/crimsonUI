@@ -79,6 +79,10 @@ hr {
   display: flex;
   justify-content: center;
 }
+.code-example-container {
+  box-sizing: border-box;
+  width: 100%;
+}
 
 .main h2 {
   font-weight: 600;
@@ -93,7 +97,7 @@ hr {
 #main-section {
   grid-area: main;
   margin: 2rem 0 6rem 6rem;
-  width: 70%;
+  width: 75%;
 }
 #main-navbar {
   grid-area: navbar;
