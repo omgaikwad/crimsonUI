@@ -1,0 +1,55 @@
+/* Badge */
+
+.badge-container {
+  position: relative;
+  margin: 0 0.4rem;
+}
+
+.number-badge-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.badge {
+  box-sizing: border-box;
+  position: absolute;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+}
+.badge-online {
+  bottom: 8px;
+  right: 8px;
+  border: 2px solid var(--white);
+  background-color: var(--success-color);
+}
+
+.badge-offline {
+  bottom: 8px;
+  right: 8px;
+  border: 2px solid var(--white);
+  background-color: gray;
+}
+
+.badge-dnd {
+  bottom: 8px;
+  right: 8px;
+  border: 2px solid var(--white);
+  background-color: red;
+}
+
+.badge-number {
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: var(--white);
+  text-align: center;
+  font-size: 10px;
+}
+
+.profile-badge {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
