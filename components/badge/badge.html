@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/13c2d874aa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="../../assets/favicon/favicon-red-black.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../../css/main.css" />
+    <link rel="stylesheet" href="../../css/utilities.css" />
+    <link rel="stylesheet" href="../../css/introduction.css" />
+    <link rel="stylesheet" href="../avatar/avatar.css" />
+    <link rel="stylesheet" href="./badge.css" />
+    <title>Badge</title>
+  </head>
+  <body>
+    <div class="grid-page-container">
+      <!-- NAVBAR SECTION -->
+      <nav class="navbar" id="main-navbar">
+        <div class="left-navbar">
+          <img
+            src="../../assets/logo/crimsonUI-logo.png"
+            alt=""
+            class="logo-img"
+          />
+          <div class="logo-title">
+            <a href="../../index.html" id="logo-title-link">crimsonUI</a>
+          </div>
+        </div>
+        <div class="right-navbar">
+          <a href="https://github.com/omgaikwad/crimsonUI" target="_blank">
+            <i class="fab fa-github fa-2x navbar-icons"></i
+          ></a>
+
+          <a href="https://twitter.com/OmGaikwad_" target="_blank">
+            <i class="fab fa-twitter fa-2x navbar-icons"></i
+          ></a>
+
+          <a href="https://www.linkedin.com/in/omgaikwad1/" target="_blank">
+            <i class="fab fa-linkedin-in fa-2x navbar-icons"></i
+          ></a>
+        </div>
+      </nav>
+
+      <!-- SIDEBAR SECTION -->
+      <div class="sidebar" id="main-sidebar">
+        <div class="components">
+          <h3 class="components-heading">Get Started</h3>
+
+          <ul class="components-list">
+            <li class="components-list-item">
+              <a href="../../pages/introduction.html">Introduction</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="components">
+          <h3 class="components-heading">Components</h3>
+
+          <ul class="components-list">
+            <li class="components-list-item">
+              <a href="../avatar/avatar.html">Avatar</a>
+            </li>
+            <li class="components-list-item">
+              <a href="./alert.html">Alert</a>
+            </li>
+            <li class="components-list-item">
+              <a href="./badge.html" id="active-page">Badge</a>
+            </li>
+            <li class="components-list-item"><a href="#">Button</a></li>
+            <li class="components-list-item"><a href="#">Cards</a></li>
+            <li class="components-list-item"><a href="#">Image</a></li>
+            <li class="components-list-item"><a href="#">Input</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- MAIN SECTION -->
+
+      <section class="main" id="main-section">
+        <h1 class="main-heading">BADGE</h1>
+        <p>
+          Badges are small circles, positioned either at top-right or
+          bottom-right of the parent component. Badge can be used to display
+          numbers, online or offline status.
+        </p>
+
+        <!-- Profile Badges -->
+        <h2>Profile Badges</h2>
+        <p>
+          It can be used in three variant
+          <strong>badge-online | badge-offline | badge-dnd</strong>
+        </p>
+
+        <!-- Code Output -->
+        <div class="code-output-container">
+          <div class="profile-badge">
+            <div class="badge-container">
+              <img
+                class="avatar"
+                src="../../assets/profilePics/profile1.jpg"
+                alt=""
+              />
+              <div class="badge badge-online"></div>
+            </div>
+            <div class="badge-container">
+              <img
+                class="avatar"
+                src="../../assets/profilePics/profile2.png"
+                alt=""
+              />
+              <div class="badge badge-offline"></div>
+            </div>
+            <div class="badge-container">
+              <img
+                class="avatar"
+                src="../../assets/profilePics/profile3.jpg"
+                alt=""
+              />
+              <div class="badge badge-dnd"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="code-example-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28211%2C211%2C211%2C1%29&t=vscode&wt=none&l=auto&width=872&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=15px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522profile-badge%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2509%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522..%252F..%252Fassets%252FprofilePics%252Fprofile1.jpg%2522%2520alt%253D%2522%2522%252F%253E%250A%2520%2520%2509%2509%253Cdiv%2520class%253D%2522badge%2520badge-online%2522%253E%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522..%252F..%252Fassets%252FprofilePics%252Fprofile2.png%2522%2520alt%253D%2522%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-offline%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522..%252F..%252Fassets%252FprofilePics%252Fprofile3.jpg%2522%2520alt%253D%2522%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-dnd%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+
+        <!-- Number Badges -->
+        <h2>Number Badges</h2>
+        <p>
+          Number Badges is used to show the number on icons like message icon,
+          cart icon, notification icon and number represents the quanitity
+          present in the parent container.
+        </p>
+
+        <div class="code-output-container">
+          <div class="number-badge-container">
+            <div class="badge-container">
+              <i class="fas fa-bell fa-lg"></i>
+              <div class="badge badge-number">7</div>
+            </div>
+            <div class="badge-container">
+              <i class="fas fa-shopping-cart fa-lg"></i>
+              <div class="badge badge-number">4</div>
+            </div>
+            <div class="badge-container">
+              <i class="fas fa-envelope fa-lg"></i>
+              <div class="badge badge-number">10</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="code-example-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28211%2C211%2C211%2C1%29&t=vscode&wt=none&l=auto&width=872&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=15px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522number-badge-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522fas%2520fa-bell%2520fa-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-number%2522%253E7%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520fa-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-number%2522%253E4%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522fas%2520fa-envelope%2520fa-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-number%2522%253E10%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
