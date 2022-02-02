@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/13c2d874aa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="../../assets/favicon/favicon-red-black.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../../css/main.css" />
+    <link rel="stylesheet" href="../../css/utilities.css" />
+    <link rel="stylesheet" href="../../css/introduction.css" />
+    <link rel="stylesheet" href="../avatar/avatar.css" />
+    <link rel="stylesheet" href="../button/button.css" />
+    <link rel="stylesheet" href="../card/card.css" />
+    <title>Card</title>
+  </head>
+  <body>
+    <div class="grid-page-container">
+      <!-- NAVBAR SECTION -->
+      <nav class="navbar" id="main-navbar">
+        <div class="left-navbar">
+          <img
+            src="../../assets/logo/crimsonUI-logo.png"
+            alt=""
+            class="logo-img"
+          />
+          <div class="logo-title">
+            <a href="../../index.html" id="logo-title-link">crimsonUI</a>
+          </div>
+        </div>
+        <div class="right-navbar">
+          <a href="https://github.com/omgaikwad/crimsonUI" target="_blank">
+            <i class="fab fa-github fa-2x navbar-icons"></i
+          ></a>
+
+          <a href="https://twitter.com/OmGaikwad_" target="_blank">
+            <i class="fab fa-twitter fa-2x navbar-icons"></i
+          ></a>
+
+          <a href="https://www.linkedin.com/in/omgaikwad1/" target="_blank">
+            <i class="fab fa-linkedin-in fa-2x navbar-icons"></i
+          ></a>
+        </div>
+      </nav>
+
+      <!-- SIDEBAR SECTION -->
+      <div class="sidebar" id="main-sidebar">
+        <div class="components">
+          <h3 class="components-heading">Get Started</h3>
+
+          <ul class="components-list">
+            <li class="components-list-item">
+              <a href="../../pages/introduction.html">Introduction</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="components">
+          <h3 class="components-heading">Components</h3>
+
+          <ul class="components-list">
+            <li class="components-list-item">
+              <a href="../avatar/avatar.html">Avatar</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../alert/alert.html">Alert</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../badge/badge.html">Badge</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../button/button.html">Button</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../card/card.html" id="active-page">Cards</a>
+            </li>
+            <li class="components-list-item"><a href="#">Image</a></li>
+            <li class="components-list-item"><a href="#">Input</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- MAIN SECTION -->
+
+      <section class="main" id="main-section">
+        <h1 class="main-heading">CARD</h1>
+        <p>
+          Card are used to show product details like price, discount, call to
+          action buttons.
+        </p>
+
+        <!-- Vertical Card -->
+        <h2>Vertical Card - With Badges, Dismiss and Card Shadow</h2>
+        <p>
+          Below are 2 variations, card with badge and card with dismiss (close
+          button).
+        </p>
+
+        <!-- Code Output -->
+        <div class="code-output-container">
+          <!-- Card With Badge -->
+          <div class="card-vertical">
+            <div class="card-img">
+              <img src="../../assets/images/watch.jpg" alt="" />
+              <span class="card-badge">NEW</span>
+            </div>
+            <div class="card-title">
+              <h4>Apple Watch</h4>
+            </div>
+            <div class="card-description">
+              <p>Starlight Aluminium Sports Band</p>
+            </div>
+            <div class="card-price">
+              <span class="sale-price">Rs. 1599</span>
+              <span class="mrp-price">Rs. 2599</span>
+              <span class="card-discount">(38%)</span>
+            </div>
+            <div class="card-footer">
+              <div class="icon-button-container card-button">
+                <button class="btn btn-icon">
+                  <i class="fas fa-shopping-cart"></i>
+                  Add to Cart
+                </button>
+              </div>
+              <i class="far fa-heart fa-lg card-heart-icon"></i>
+            </div>
+          </div>
+
+          <!-- Card with Close Button -->
+          <div class="card-vertical">
+            <div class="card-img">
+              <img src="../../assets/images/watch.jpg" alt="" />
+              <span class="card-badge">NEW</span>
+              <i class="fas fa-times fa-lg card-close"></i>
+            </div>
+            <div class="card-title">
+              <h4>Apple Watch</h4>
+            </div>
+            <div class="card-description">
+              <p>Starlight Aluminium Sports Band</p>
+            </div>
+            <div class="card-price">
+              <span class="sale-price">Rs. 1599</span>
+              <span class="mrp-price">Rs. 2599</span>
+              <span class="card-discount">(38%)</span>
+            </div>
+            <div class="card-footer">
+              <div class="icon-button-container card-button">
+                <button class="btn btn-icon">
+                  <i class="fas fa-shopping-cart"></i>
+                  Add to Cart
+                </button>
+              </div>
+              <i class="far fa-heart fa-lg card-heart-icon"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- CODE: Card With Badge -->
+        <div class="code-example-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28211%2C211%2C211%2C1%29&t=vscode&wt=none&l=htmlmixed&width=889.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=15px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vertical%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fimages%252Fwatch.jpg%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-badge%2522%253ENEW%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253E%250A%2520%2520%2520%2520%2520%253Ch4%253EApple%2520Watch%253C%252Fh4%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-description%2522%253E%250A%2520%2520%2520%2520%2520%253Cp%253EStarlight%2520Aluminium%2520Sports%2520Band%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522sale-price%2522%253ERs.%25201599%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522mrp-price%2522%253ERs.%25202599%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-discount%2522%253E%2838%2525%29%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-button-container%2520card-button%2522%253E%250A%2520%2520%2520%2520%2509%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%250A%2520%2520%2520%2520%2520%2509%253C%252Fbutton%253E%250A%2520%2520%2509%253C%252Fdiv%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520fa-lg%2520card-heart-icon%2522%253E%253C%252Fi%253E%250A%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+
+        <!-- CODE: Card with Close Button -->
+        <div class="code-example-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28211%2C211%2C211%2C1%29&t=vscode&wt=none&l=htmlmixed&width=889.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=15px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vertical%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fimages%252Fwatch.jpg%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-badge%2522%253ENEW%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520fa-lg%2520card-close%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EApple%2520Watch%253C%252Fh4%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253EStarlight%2520Aluminium%2520Sports%2520Band%253C%252Fp%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522sale-price%2522%253ERs.%25201599%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522mrp-price%2522%253ERs.%25202599%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-discount%2522%253E%2838%2525%29%253C%252Fspan%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2509%2509%253Cdiv%2520class%253D%2522icon-button-container%2520card-button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520fa-lg%2520card-heart-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+
+        <!-- Card with Text Overlay -->
+        <h2>Card with Text Overlay</h2>
+        <p>Text overlays over the Card.</p>
+
+        <div class="code-output-container">
+          <div class="card-vertical">
+            <div class="card-img">
+              <img src="../../assets/images/watch.jpg" alt="" />
+              <span class="card-badge">NEW</span>
+            </div>
+            <div class="card-title">
+              <h4>Apple Watch</h4>
+            </div>
+            <div class="card-description">
+              <p>Starlight Aluminium Sports Band</p>
+            </div>
+            <div class="card-price">
+              <span class="sale-price">Rs. 1599</span>
+              <span class="mrp-price">Rs. 2599</span>
+              <span class="card-discount">(38%)</span>
+            </div>
+            <div class="card-footer">
+              <div class="icon-button-container card-button">
+                <button class="btn btn-icon">
+                  <i class="fas fa-shopping-cart"></i>
+                  Add to Cart
+                </button>
+              </div>
+              <i class="far fa-heart fa-lg card-heart-icon"></i>
+            </div>
+            <div class="card-overlay">OUT OF STOCK</div>
+          </div>
+        </div>
+
+        <div class="code-example-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28211%2C211%2C211%2C1%29&t=vscode&wt=none&l=htmlmixed&width=889.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=15px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vertical%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fimages%252Fwatch.jpg%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-badge%2522%253ENEW%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EApple%2520Watch%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EStarlight%2520Aluminium%2520Sports%2520Band%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522sale-price%2522%253ERs.%25201599%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522mrp-price%2522%253ERs.%25202599%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-discount%2522%253E%2838%2525%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-button-container%2520card-button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520fa-lg%2520card-heart-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-overlay%2522%253EOUT%2520OF%2520STOCK%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+
+        <!-- Horizontal Card -->
+        <h2>Horizontal Card</h2>
+        <p>
+          Horizontal Card is similar like vertical card but it is in landscape
+          mode.
+        </p>
+
+        <div class="code-output-container">
+          <div class="card-horizontal">
+            <div class="card-img-horizontal">
+              <img src="../../assets/images/watch.jpg" alt="" />
+              <span class="card-badge">NEW</span>
+            </div>
+            <div class="card-horizontal-content">
+              <div class="card-title">
+                <h4>Apple Watch</h4>
+              </div>
+              <div class="card-description">
+                <p>Starlight Aluminium Sports Band</p>
+              </div>
+              <div class="card-price">
+                <span class="sale-price">Rs. 1599</span>
+                <span class="mrp-price">Rs. 2599</span>
+                <span class="card-discount">(38%)</span>
+              </div>
+              <div class="card-footer">
+                <div class="icon-button-container card-button">
+                  <button class="btn btn-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    Add to Cart
+                  </button>
+                </div>
+                <i class="far fa-heart fa-lg card-heart-icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="code-example-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28211%2C211%2C211%2C1%29&t=vscode&wt=none&l=htmlmixed&width=889.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=15px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-horizontal%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-img-horizontal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fimages%252Fwatch.jpg%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-badge%2522%253ENEW%253C%252Fspan%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-horizontal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EApple%2520Watch%253C%252Fh4%253E%250A%2520%2520%2520%2509%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EStarlight%2520Aluminium%2520Sports%2520Band%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522sale-price%2522%253ERs.%25201599%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522mrp-price%2522%253ERs.%25202599%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-discount%2522%253E%2838%2525%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-button-container%2520card-button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520fa-lg%2520card-heart-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+
+        <!-- Text Only Card -->
+        <h2>Text Only Cards</h2>
+        <p>Text only cards does not contain any images.</p>
+
+        <div class="code-output-container">
+          <div class="card-horizontal">
+            <div class="card-horizontal-content">
+              <div class="card-title">
+                <h4>Call To Action (CTA)</h4>
+              </div>
+              <div class="card-description">
+                <p id="card-text-only-desc">
+                  Call to action (CTA) is a marketing term for any design to
+                  prompt an immediate response or encourage an immediate sale. A
+                  CTA most often refers to the use of words or phrases that can
+                  be incorporated into sales scripts, advertising messages, or
+                  web pages, which compel an audience to act in a specific way.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="code-example-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28211%2C211%2C211%2C1%29&t=vscode&wt=none&l=htmlmixed&width=889.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=15px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-horizontal%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-horizontal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ECall%2520To%2520Action%2520%28CTA%29%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520id%253D%2522card-text-only-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Call%2520to%2520action%2520%28CTA%29%2520is%2520a%2520marketing%2520term%2520for%2520any%2520design%2520to%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520prompt%2520an%2520immediate%2520response%2520or%2520encourage%2520an%2520immediate%2520sale.%2520A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520CTA%2520most%2520often%2520refers%2520to%2520the%2520use%2520of%2520words%2520or%2520phrases%2520that%2520can%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520be%2520incorporated%2520into%2520sales%2520scripts%252C%2520advertising%2520messages%252C%2520or%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520web%2520pages%252C%2520which%2520compel%2520an%2520audience%2520to%2520act%2520in%2520a%2520specific%2520way.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
