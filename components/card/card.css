@@ -1,0 +1,125 @@
+.card-vertical {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: fit-content;
+  width: 14rem;
+  margin: 1rem;
+  background-color: var(--white);
+  color: var(--secondary-color);
+  box-shadow: 4px 4px lightgray;
+}
+
+.card-horizontal {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  height: 12rem;
+  width: 26rem;
+  margin: 1rem;
+  background-color: var(--white);
+  color: var(--secondary-color);
+  box-shadow: 4px 4px lightgray;
+}
+
+.card-horizontal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.card-img-horizontal {
+  position: relative;
+  width: 40%;
+  height: 100%;
+}
+.card-img-horizontal img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-img {
+  position: relative;
+  width: 100%;
+  height: 70%;
+}
+.card-img img {
+  width: 100%;
+  height: 100%;
+}
+
+#card-text-only-desc {
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+
+.card-badge {
+  position: absolute;
+  background-color: var(--primary-color);
+  color: var(--white);
+  width: fit-content;
+  height: fit-content;
+  font-size: 14px;
+  padding: 1px 6px;
+  top: 8px;
+  left: 0;
+  text-align: center;
+  font-weight: 500;
+}
+.card-price {
+  margin: 0.4rem 0 0 0.6rem;
+}
+.card-title {
+  margin: 0.4rem 0 0 0.6rem;
+}
+.card-description {
+  font-size: 12px;
+  margin: 0.4rem 0 0 0.6rem;
+  color: var(--gray);
+}
+.card-footer {
+  margin: 0.4rem 0.4rem 0.4rem 0.6rem;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+.card-heart-icon {
+  margin-left: auto;
+  cursor: pointer;
+}
+.mrp-price {
+  font-size: 12px;
+  color: var(--gray);
+  text-decoration: line-through;
+}
+.card-discount {
+  color: var(--primary-color);
+  font-size: 12px;
+}
+.card-close {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  cursor: pointer;
+  color: var(--gray);
+}
+
+.card-overlay {
+  /* display: none; */
+  height: 100%;
+  width: 100%;
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--secondary-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaeaec;
+  opacity: 0.8;
+}
