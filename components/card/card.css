@@ -13,7 +13,6 @@
 .card-horizontal {
   display: flex;
   position: relative;
-  flex-direction: row;
   height: 12rem;
   width: 26rem;
   margin: 1rem;
@@ -50,7 +49,7 @@
 }
 
 #card-text-only-desc {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: var(--secondary-color);
 }
 
@@ -60,7 +59,7 @@
   color: var(--white);
   width: fit-content;
   height: fit-content;
-  font-size: 14px;
+  font-size: 0.875rem;
   padding: 1px 6px;
   top: 8px;
   left: 0;
@@ -74,7 +73,7 @@
   margin: 0.4rem 0 0 0.6rem;
 }
 .card-description {
-  font-size: 12px;
+  font-size: 0.75rem;
   margin: 0.4rem 0 0 0.6rem;
   color: var(--gray);
 }
@@ -82,31 +81,29 @@
   margin: 0.4rem 0.4rem 0.4rem 0.6rem;
   display: flex;
   align-items: center;
-  /* justify-content: space-around; */
 }
 .card-heart-icon {
   margin-left: auto;
   cursor: pointer;
 }
 .mrp-price {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: var(--gray);
   text-decoration: line-through;
 }
 .card-discount {
   color: var(--primary-color);
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 .card-close {
   position: absolute;
   top: 8px;
-  right: 12px;
+  right: 0.75rem;
   cursor: pointer;
   color: var(--gray);
 }
 
 .card-overlay {
-  /* display: none; */
   height: 100%;
   width: 100%;
   font-weight: 700;
