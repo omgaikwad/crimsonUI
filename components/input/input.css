@@ -109,3 +109,7 @@ input[type="file"]::file-selector-button {
   color: red;
   background-color: red;
 }
+
+.textarea {
+  padding: 0.8rem;
+}
