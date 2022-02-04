@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/13c2d874aa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="../../assets/favicon/favicon-red-black.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../../css/main.css" />
+    <link rel="stylesheet" href="../../css/utilities.css" />
+    <link rel="stylesheet" href="../../css/introduction.css" />
+    <link rel="stylesheet" href="../avatar/avatar.css" />
+    <link rel="stylesheet" href="../button/button.css" />
+    <link rel="stylesheet" href="../typography/typography.css" />
+    <title>Typography</title>
+  </head>
+  <body>
+    <div class="grid-page-container">
+      <!-- NAVBAR SECTION -->
+      <nav class="navbar" id="main-navbar">
+        <div class="left-navbar">
+          <img
+            src="../../assets/logo/crimsonUI-logo.png"
+            alt=""
+            class="logo-img"
+          />
+          <div class="logo-title">
+            <a href="../../index.html" id="logo-title-link">crimsonUI</a>
+          </div>
+        </div>
+        <div class="right-navbar">
+          <a href="https://github.com/omgaikwad/crimsonUI" target="_blank">
+            <i class="fab fa-github fa-2x navbar-icons"></i
+          ></a>
+
+          <a href="https://twitter.com/OmGaikwad_" target="_blank">
+            <i class="fab fa-twitter fa-2x navbar-icons"></i
+          ></a>
+
+          <a href="https://www.linkedin.com/in/omgaikwad1/" target="_blank">
+            <i class="fab fa-linkedin-in fa-2x navbar-icons"></i
+          ></a>
+        </div>
+      </nav>
+
+      <!-- SIDEBAR SECTION -->
+      <div class="sidebar" id="main-sidebar">
+        <div class="components">
+          <h3 class="components-heading">Get Started</h3>
+
+          <ul class="components-list">
+            <li class="components-list-item">
+              <a href="../../pages/introduction.html">Introduction</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="components">
+          <h3 class="components-heading">Components</h3>
+
+          <ul class="components-list">
+            <li class="components-list-item">
+              <a href="../avatar/avatar.html">Avatar</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../alert/alert.html">Alert</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../badge/badge.html">Badge</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../button/button.html">Button</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../card/card.html">Cards</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../image/image.html">Image</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../input/input.html">Input</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../typography/typography.html" id="active-page"
+                >Typography</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- MAIN SECTION -->
+
+      <section class="main" id="main-section">
+        <h1 class="main-heading">TYPOGRAPHY</h1>
+        <p>
+          Below are text utilities you use by including given below classses.
+        </p>
+
+        <!-- Heading Examples -->
+        <h2>Heading Examples</h2>
+        <p>
+          For heading you can use class names heading1, heading2, heading3,
+          heading4, heading5, to style the text.
+        </p>
+
+        <!-- Code Output -->
+        <div class="code-output-container flex-col">
+          <div class="heading1">Heading 1</div>
+          <div class="heading2">Heading 2</div>
+          <div class="heading3">Heading 3</div>
+          <div class="heading4">Heading 4</div>
+          <div class="heading5">Heading 5</div>
+        </div>
+
+        <!-- CODE -->
+        <div class="code-example-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28211%2C211%2C211%2C1%29&t=vscode&wt=none&l=htmlmixed&width=889.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=15px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522heading1%2522%253EHeadline%25201%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522heading2%2522%253EHeadline%25202%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522heading3%2522%253EHeadline%25203%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522heading4%2522%253EHeadline%25204%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522heading5%2522%253EHeadline%25205%253C%252Fdiv%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+
+        <!-- Paragraph Text -->
+        <h2>Paragraph Text</h2>
+        <p>
+          There are 3 sizes for paragraph text: para-lg, para-md and para-sm for
+          large, medium and small respectively.
+        </p>
+
+        <div class="code-output-container flex-col">
+          <p class="para-lg">This is large size paragraph.</p>
+          <p class="para-md">This is medium size paragraph.</p>
+          <p>This is default size paragraph.</p>
+          <p class="para-sm">This is small size paragraph.</p>
+        </div>
+
+        <div class="code-example-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28211%2C211%2C211%2C1%29&t=vscode&wt=none&l=htmlmixed&width=889.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=15px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522para-lg%2522%253EThis%2520is%2520large%2520size%2520paragraph.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522para-md%2522%253EThis%2520is%2520medium%2520size%2520paragraph.%253C%252Fp%253E%250A%253Cp%253EThis%2520is%2520default%2520size%2520paragraph.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522para-sm%2522%253EThis%2520is%2520small%2520size%2520paragraph.%253C%252Fp%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+
+        <!-- Text Alignments -->
+        <h2>Text Alignments</h2>
+        <p>
+          You can align your text with respective to parent container using
+          class text-left, text-center, text-right for aligning left, center and
+          right respectively.
+        </p>
+
+        <div class="code-output-container flex-col">
+          <p class="text-left">This is left aligned text.</p>
+          <hr />
+          <p class="text-center">This is centered aligned text.</p>
+          <hr />
+          <p class="text-right">This is right aligned text.</p>
+        </div>
+
+        <div class="code-example-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28211%2C211%2C211%2C1%29&t=vscode&wt=none&l=htmlmixed&width=889.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=15px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522text-left%2522%253EThis%2520is%2520left%2520aligned%2520text.%253C%252Fp%253E%250A%2520%2520%2520%253Chr%2520%252F%253E%250A%253Cp%2520class%253D%2522text-center%2522%253EThis%2520is%2520centered%2520aligned%2520text.%253C%252Fp%253E%250A%2520%2520%2520%253Chr%2520%252F%253E%250A%253Cp%2520class%253D%2522text-right%2522%253EThis%2520is%2520right%2520aligned%2520text.%253C%252Fp%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+
+        <!-- Extra Text Styles -->
+        <h2>Extra Text Styles</h2>
+        <ul>
+          <li>
+            TEXT GRAY: To give gray font color to your text just add class name
+            as text-gray.
+          </li>
+          <li>
+            TEXT WITH PRIMARY COLOR: To give text primary color use class name
+            text-primary-color.
+          </li>
+          <li>
+            TEXT STRIKE THROUGH: To make strike through text add class name
+            text-strike-through.
+          </li>
+          <li>
+            TEXT UNDERLINE: To get text underline use class name text-underline.
+          </li>
+        </ul>
+
+        <div class="code-output-container flex-col">
+          <p class="text-gray">This is gray color text.</p>
+          <p class="text-primary-color">This is primary color text.</p>
+          <p class="text-strike-through">This is text strike through.</p>
+          <p class="text-underline">This is text underline.</p>
+        </div>
+
+        <div class="code-example-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28211%2C211%2C211%2C1%29&t=vscode&wt=none&l=htmlmixed&width=889.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=15px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522text-gray%2522%253EThis%2520is%2520gray%2520color%2520text.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-primary-color%2522%253EThis%2520is%2520primary%2520color%2520text.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-strike-through%2522%253EThis%2520is%2520text%2520strike%2520through.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-underline%2522%253EThis%2520is%2520text%2520underline.%253C%252Fp%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
