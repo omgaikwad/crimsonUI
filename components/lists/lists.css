@@ -1,0 +1,35 @@
+.list-style-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+}
+
+/* Unordered List Styles */
+.list-style-disc {
+  list-style-type: disc;
+}
+.list-style-square {
+  list-style-type: square;
+}
+.list-style-circle {
+  list-style-type: circle;
+}
+.list-style-none {
+  list-style-type: none;
+}
+
+/* Ordered List Styles */
+.list-style-capAlpha {
+  list-style-type: upper-alpha;
+}
+.list-style-smAlpha {
+  list-style-type: lower-alpha;
+}
+.list-style-smRoman {
+  list-style-type: lower-roman;
+}
+.list-style-capRoman {
+  list-style-type: upper-roman;
+}
