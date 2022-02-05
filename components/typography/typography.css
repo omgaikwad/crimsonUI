@@ -1,0 +1,62 @@
+.heading1,
+.heading2,
+.heading3,
+.heading4,
+.heading5 {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+
+/* Heading Sizes */
+.heading1 {
+  font-size: 3rem;
+}
+.heading2 {
+  font-size: 2rem;
+}
+.heading3 {
+  font-size: 1.5rem;
+}
+.heading4 {
+  font-size: 1rem;
+}
+.heading5 {
+  font-size: 0.8rem;
+}
+
+/* Paragraph Sizes */
+.para-lg {
+  font-size: 2rem;
+}
+.para-md {
+  font-size: 1.5rem;
+}
+.para-sm {
+  font-size: 0.8rem;
+}
+
+/* Text Alignment */
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+/* Extra Text Styles */
+.text-gray {
+  color: var(--gray);
+}
+.text-primary-color {
+  color: var(--primary-color);
+}
+.text-strike-through {
+  text-decoration: line-through;
+}
+.text-underline {
+  text-decoration: underline;
+}
