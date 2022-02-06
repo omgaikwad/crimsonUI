@@ -1,0 +1,36 @@
+.navbar {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-navbar {
+  display: flex;
+  align-items: center;
+  margin-left: 5rem;
+}
+
+.right-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto 3rem auto auto;
+}
+
+.navbar-icons {
+  color: var(--primary-color);
+  margin-right: 2.6rem;
+  cursor: pointer;
+}
+
+.logo-img {
+  height: 4.6875rem;
+  width: 4.6875rem;
+}
+
+.logo-title {
+  font-weight: 600;
+  font-size: 2rem;
+}
