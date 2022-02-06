@@ -1,0 +1,16 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  width: 20rem;
+  height: auto;
+  border: 1px solid var(--secondary-color);
+  padding: 1rem;
+  background-color: var(--white);
+}
+
+.modal-button {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/13c2d874aa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="../../assets/favicon/favicon-red-black.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../../css/main.css" />
+    <link rel="stylesheet" href="../../css/utilities.css" />
+    <link rel="stylesheet" href="../../css/introduction.css" />
+    <link rel="stylesheet" href="../avatar/avatar.css" />
+    <link rel="stylesheet" href="../button/button.css" />
+    <link rel="stylesheet" href="../typography/typography.css" />
+    <link rel="stylesheet" href="../modal/modal.css" />
+    <title>Modal</title>
+  </head>
+  <body>
+    <div class="grid-page-container">
+      <!-- NAVBAR SECTION -->
+      <nav class="navbar" id="main-navbar">
+        <div class="left-navbar">
+          <img
+            src="../../assets/logo/crimsonUI-logo.png"
+            alt=""
+            class="logo-img"
+          />
+          <div class="logo-title">
+            <a href="../../index.html" id="logo-title-link">crimsonUI</a>
+          </div>
+        </div>
+        <div class="right-navbar">
+          <a href="https://github.com/omgaikwad/crimsonUI" target="_blank">
+            <i class="fab fa-github fa-2x navbar-icons"></i
+          ></a>
+
+          <a href="https://twitter.com/OmGaikwad_" target="_blank">
+            <i class="fab fa-twitter fa-2x navbar-icons"></i
+          ></a>
+
+          <a href="https://www.linkedin.com/in/omgaikwad1/" target="_blank">
+            <i class="fab fa-linkedin-in fa-2x navbar-icons"></i
+          ></a>
+        </div>
+      </nav>
+
+      <!-- SIDEBAR SECTION -->
+      <div class="sidebar" id="main-sidebar">
+        <div class="components">
+          <h3 class="components-heading">Get Started</h3>
+
+          <ul class="components-list">
+            <li class="components-list-item">
+              <a href="../../pages/introduction.html">Introduction</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="components">
+          <h3 class="components-heading">Components</h3>
+
+          <ul class="components-list">
+            <li class="components-list-item">
+              <a href="../avatar/avatar.html">Avatar</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../alert/alert.html">Alert</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../badge/badge.html">Badge</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../button/button.html">Button</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../card/card.html">Cards</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../image/image.html">Image</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../input/input.html">Input</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../typography/typography.html">Typography</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../lists/lists.html">Lists</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../typography/typography.html">Navigation</a>
+            </li>
+
+            <li class="components-list-item">
+              <a href="../typography/typography.html" id="active-page">Modal</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- MAIN SECTION -->
+
+      <section class="main" id="main-section">
+        <h1 class="main-heading">MODAL</h1>
+        <p>
+          A modal is a popup window that is displayed on top of the current page
+          used for confirmation boxes.
+        </p>
+
+        <!-- Code Output -->
+        <div class="code-output-container">
+          <div class="modal">
+            <h3 class="modal-heading">Cookies!</h3>
+            <p class="modal-description text-gray text-center">
+              We use cookies to make your experience better. By continuing you
+              are agreeing to our use of cookies as stated in our cookie policy.
+            </p>
+            <div class="modal-buttons">
+              <button class="btn btn-secondary">Privacy Policy</button>
+              <button class="btn btn-primary">I Understand</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CODE -->
+        <div class="code-example-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28211%2C211%2C211%2C1%29&t=vscode&wt=none&l=htmlmixed&width=889.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=15px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522modal-heading%2522%253ECookies%21%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522modal-description%2520text-gray%2520text-center%2522%253E%250A%2520%2520%2520%2520%2520%2509We%2520use%2520cookies%2520to%2520make%2520your%2520experience%2520better.%2520By%2520continuing%2520you%250A%2520%2520%2520%2520%2520%2520%2520%2520are%2520agreeing%2520to%2520our%2520use%2520of%2520cookies%2520as%2520stated%2520in%2520our%2520cookie%2520policy.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253EPrivacy%2520Policy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EI%2520Understand%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
