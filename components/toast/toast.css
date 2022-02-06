@@ -1,0 +1,23 @@
+.toast {
+  width: 20rem;
+  padding: 1rem 2rem;
+  text-align: justify;
+  background-color: var(--off-white);
+  text-align: center;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.toast-success {
+  border: 2px solid var(--success-color);
+  color: var(--success-color);
+}
+.toast-warning {
+  border: 2px solid var(--warning-color);
+  color: var(--warning-color);
+}
+
+.toast-error {
+  border: 2px solid var(--danger-color);
+  color: var(--danger-color);
+}
