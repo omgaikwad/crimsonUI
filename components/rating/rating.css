@@ -1,0 +1,8 @@
+.rating-read-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rating-checked {
+  color: var(--orange);
+}
