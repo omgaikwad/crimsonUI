@@ -200,16 +200,16 @@ main {
 
 @media screen and (max-width: 480px) {
   body {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .logo-title {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .logo-img {
-    height: 3rem;
-    width: 3rem;
+    height: 2rem;
+    width: 2rem;
   }
 
   .main-title-h1 {
