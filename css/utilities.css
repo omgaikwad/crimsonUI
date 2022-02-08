@@ -7,6 +7,7 @@
 .background-bg-color {
   background-color: var(--background-color);
 }
+
 .danger-bg-color {
   background-color: var(--danger-color);
 }
@@ -15,6 +16,19 @@
 }
 .warning-bg-color {
   background-color: var(--warning-color);
+}
+
+.white-bg-color {
+  background-color: var(--white);
+}
+.off-white-bg-color {
+  background-color: var(--off-white);
+}
+.gray-bg-color {
+  background-color: var(--gray);
+}
+.orange-bg-color {
+  background-color: var(--orange);
 }
 
 .flex-col {
