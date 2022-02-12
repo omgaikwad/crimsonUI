@@ -1,7 +1,7 @@
 .btn {
   box-sizing: border-box;
   border: none;
-  padding: 0.6rem 1rem;
+  padding: 0.3rem 1rem;
   font-size: 1rem;
   cursor: pointer;
   font-weight: 500;
@@ -33,50 +33,52 @@
   background-color: transparent;
   border: 1px solid var(--primary-color);
 }
-.btn-outline-primary:hover {
+/* .btn-outline-primary:hover {
   color: var(--white);
   background-color: var(--primary-color);
-}
+} */
 
 .btn-outline-secondary {
   color: var(--secondary-color);
   background-color: transparent;
   border: 1px solid var(--secondary-color);
 }
-.btn-outline-secondary:hover {
+/* .btn-outline-secondary:hover {
   color: var(--white);
   background-color: var(--secondary-color);
-}
+} */
 
 .btn-outline-success {
   color: var(--success-color);
   background-color: transparent;
   border: 1px solid var(--success-color);
 }
-.btn-outline-success:hover {
+/* .btn-outline-success:hover {
   color: var(--white);
   background-color: var(--success-color);
-}
+} */
 
 .btn-outline-danger {
   color: var(--danger-color);
   background-color: transparent;
   border: 1px solid var(--danger-color);
 }
-.btn-outline-danger:hover {
+/* .btn-outline-danger:hover {
   color: var(--white);
   background-color: var(--danger-color);
-}
+} */
 
 /* Link Buttons */
 .btn-link {
-  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--primary-color);
 }
-.btn-link a {
-  text-decoration: none;
-  color: var(--white);
+.btn-link:hover {
+  color: var(--primary-color);
 }
-
 /* Icon Buttons */
 .btn-icon {
   background-color: var(--primary-color);
