@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/13c2d874aa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="../../assets/favicon/favicon-red-black.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../../css/main.css" />
+    <link rel="stylesheet" href="../../css/utilities.css" />
+    <link rel="stylesheet" href="../../css/introduction.css" />
+    <link rel="stylesheet" href="../avatar/avatar.css" />
+    <link rel="stylesheet" href="../button/button.css" />
+    <link rel="stylesheet" href="../typography/typography.css" />
+    <link rel="stylesheet" href="../slider/slider.css" />
+    <title>Slider</title>
+  </head>
+  <body>
+    <div class="grid-page-container">
+      <!-- NAVBAR SECTION -->
+      <nav class="navbar" id="main-navbar">
+        <div class="left-navbar">
+          <img
+            src="../../assets/logo/crimsonUI-logo.png"
+            alt=""
+            class="logo-img"
+          />
+          <div class="logo-title">
+            <a href="../../index.html" id="logo-title-link">crimsonUI</a>
+          </div>
+        </div>
+        <div class="right-navbar">
+          <a href="https://github.com/omgaikwad/crimsonUI" target="_blank">
+            <i class="fab fa-github fa-2x navbar-icons"></i
+          ></a>
+
+          <a href="https://twitter.com/OmGaikwad_" target="_blank">
+            <i class="fab fa-twitter fa-2x navbar-icons"></i
+          ></a>
+
+          <a href="https://www.linkedin.com/in/omgaikwad1/" target="_blank">
+            <i class="fab fa-linkedin-in fa-2x navbar-icons"></i
+          ></a>
+        </div>
+      </nav>
+
+      <!-- SIDEBAR SECTION -->
+      <div class="sidebar" id="main-sidebar">
+        <div class="components">
+          <h3 class="components-heading">Get Started</h3>
+
+          <ul class="components-list">
+            <li class="components-list-item">
+              <a href="../../pages/introduction.html">Introduction</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="components">
+          <h3 class="components-heading">Components</h3>
+
+          <ul class="components-list">
+            <li class="components-list-item">
+              <a href="../avatar/avatar.html">Avatar</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../alert/alert.html">Alert</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../badge/badge.html">Badge</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../button/button.html">Button</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../card/card.html">Cards</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../image/image.html">Image</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../input/input.html">Input</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../typography/typography.html">Typography</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../lists/lists.html">Lists</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../navigation/navigation.html">Navigation</a>
+            </li>
+
+            <li class="components-list-item">
+              <a href="../modal/modal.html">Modal</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../toast/toast.html">Toast</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../rating/rating.html">Rating</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../grid/grid.html">Grid</a>
+            </li>
+            <li class="components-list-item">
+              <a href="../slider/slider.html" id="active-page">Slider</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- MAIN SECTION -->
+
+      <section class="main" id="main-section">
+        <h1 class="main-heading">SLIDER</h1>
+        <p>
+          Sliders are used to decide range of values of sound, prices of
+          products or ratings.
+        </p>
+
+        <!-- 2 equal grid layout -->
+        <h2>Slider</h2>
+
+        <!-- Code Output -->
+        <div class="code-output-container grid-wrapper">
+          <div class="slider-container">
+            <label class="slider-values" for="slider">
+              <span>50</span>
+              <span>150</span>
+              <span>200</span>
+            </label>
+            <input
+              type="range"
+              name=""
+              id="slider"
+              min="50"
+              max="200"
+              value="50"
+              class="slider-input"
+            />
+          </div>
+        </div>
+
+        <!-- CODE -->
+        <div class="code-example-container">
+          <iframe
+            src="https://www.thiscodeworks.com/embed/6210d3521cc8b9001542ee05"
+            style="width: 100%; height: 190px"
+            frameborder="0"
+          ></iframe>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
