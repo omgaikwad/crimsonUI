@@ -16,3 +16,18 @@
   align-items: center;
   justify-content: space-around;
 }
+.navbar-hamburger-icon {
+  display: none;
+  color: var(--primary-color);
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+  .navbar-hamburger-icon {
+    display: block;
+  }
+  .right-navbar-component {
+    display: none;
+  }
+}
