@@ -29,7 +29,7 @@
   box-sizing: border-box;
   background-color: var(--success-color);
   color: var(--off-white);
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 .grid-container-2 {
@@ -37,19 +37,19 @@
   box-sizing: border-box;
   background-color: var(--warning-color);
   color: var(--off-white);
-  margin: 1rem;
+  margin: 1rem 0;
 }
 .grid-container-3 {
   grid-area: container3;
   box-sizing: border-box;
   background-color: var(--danger-color);
   color: var(--off-white);
-  margin: 1rem;
+  margin: 1rem 0;
 }
 .grid-container-4 {
   grid-area: container4;
   box-sizing: border-box;
   background-color: var(--gray);
   color: var(--off-white);
-  margin: 1rem;
+  margin: 1rem 0;
 }

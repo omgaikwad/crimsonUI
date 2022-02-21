@@ -113,3 +113,10 @@ input[type="file"]::file-selector-button {
 .textarea {
   padding: 0.8rem;
 }
+.form-upload-file-container {
+  max-width: 100%;
+}
+
+.form-textarea-container {
+  max-width: 100%;
+}
