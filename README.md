@@ -1,4 +1,4 @@
-![Logo](./assets/logo/crimsonUI-logo.png)
+![Logo](./assets/logo/crimsonUI-transparent.png)
 
 # crimsonUI
 
