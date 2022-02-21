@@ -12,9 +12,9 @@ In order to use crimsonUI in your project, copy the given link below and paste i
 <link rel="stylesheet" href="https://crimsonui-beta.netlify.app/css/components.css" />
 ```
 
-## Demo
+## Live Project GIFs
 
-Insert gif or link to demo
+![](./assets/project-gif/crimsonUIScreenRecording.gif)
 
 ## Live Project Link
 
